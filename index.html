@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My website</title>
     <link rel="stylesheet" href="index2.css">
-    
+    <script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+
+    if (window.scrollY > 50) {
+      navbar.classList.add("transparent");
+    } else {
+      navbar.classList.remove("transparent");
+    }
+  });
+</script>
 </head>
 <body>
+    <nav class="navbar">
+        <h2 class="logo">
+            <img src="Gradient blue ribbon logo design.png" alt="logo">
+            <a href="index.html">Omar</a>
+        </h2>
+        <ul>
+            <li><a href="index_home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>    
+        </ul>
+
+    </nav>
     <div class="container">
 <header>My WebSite</header> 
-<h1>Why did I make this WeSite?</h1>
+<h1>Why did I make this WebSite?</h1>
 <p>To Test if I can make a PRO webpage</p>
 <p>but I think I am very bad at coding so please don't be sad for seeing this shit, ok?</p> 
 <hr>
@@ -18,6 +41,46 @@
 <p class="lol">Hi, My Name is Omar</p>
 <p>I have 21 years old, I live in shierbeen city, But I think I need to leave it as soon as possible </p>
 <a href="index1.html" target="_blank"  >Why do I want to leave this city?</a>   
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- اسمك -->
+    <div class="footer-logo">
+      <h2>Omar</h2>
+      <p>Web Developer</p>
+    </div>
+
+    <!-- لينكات -->
+    <div class="footer-links">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- سوشيال -->
+    <div class="footer-social">
+      <h3>Follow Me</h3>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100006204946669&locale=ar_AR" target="_blank">Facebook</a></li>
+        <li><a href="https://github.com/Void-Null-0" target="_blank">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/channel/UCLW7-0nEONR15dom9avSilA" target="_blank">YouTube</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- تحت خالص -->
+  <p class="copyright">
+    © 2026 Omar. All rights reserved.
+  </p>
+</footer>
+
 </div>
 </body>
 </html>
