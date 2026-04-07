@@ -1,0 +1,45 @@
+body {
+   background: linear-gradient(135deg, #0f172a, #020617);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+   color: #38bdf8;
+   text-align: center;
+   font-size: 40px;
+  font-weight: bold;
+   margin-bottom: 5%;
+   margin-top: 30px;
+}
+
+h1 {
+     color: #f1f5f9;
+     margin: 10% 0% 2.5%;
+     
+}
+
+p {
+    color: #cbd5f5;
+    
+    margin: 10px 0;
+    line-height: 1.6;
+}
+hr {
+  border: 1px solid #334155;
+  width: 60%;
+}
+.home {
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 50%;
+    
+}
+
+.lol {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 3%;
+}
