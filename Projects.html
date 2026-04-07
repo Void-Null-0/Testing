@@ -3,28 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
-    <link rel="stylesheet" href="index2.css">
+    <title>Projects</title>
+    <link rel="stylesheet" href="Pro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>
-  window.addEventListener("scroll", function () {
-    const navbar = document.querySelector(".navbar");
-
-    if (window.scrollY > 50) {
-      navbar.classList.add("transparent");
-    } else {
-      navbar.classList.remove("transparent");
-    }
-  });
-</script>
-<script>
-  const menu = document.querySelector(".menu-toggle");
-  const links = document.querySelector(".nav-links");
-
-  menu.addEventListener("click", () => {
-    links.classList.toggle("active");
-  });
-</script>
 </head>
 <body>
     <nav class="navbar">
@@ -40,20 +21,56 @@
             <li><a href="#">Contact</a></li>    
         </ul>
 
-        <div class="menu-toggle">☰</div>
-
     </nav>
-    <div class="container">
-<header>Void-Null-0</header> 
-<h1>Why did I make this WebSite?</h1>
-<p>To Test if I can make a PRO webpage</p>
-<p>but I think I am very bad at coding so please don't be sad for seeing this shit, ok?</p> 
-<hr>
-<img class="home" src="my_img.jpeg" alt="omaretooo avatar" />
-<p class="lol">Hi, My Name is Omar</p>
-<p>I have 21 years old, I live in shierbeen city, But I think I need to leave it as soon as possible </p>
-<a href="index1.html" target="_blank"  >Why do I want to leave this city?</a> 
+    
 
+    
+<section class="projects">
+  <h2>My Projects</h2>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h3>My Portfolio</h3>
+      <p>First personal website using HTML & CSS</p>
+      <a href="index.html">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Coming Soon</h3>
+      <p>More projects will be added soon</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Coming Soon</h3>
+      <p>Stay tuned</p>
+      <a href="#">View Project</a>
+    </div>
+
+    
+    <div class="project-card">
+      <h3>Coming Soon</h3>
+      <p>Stay tuned</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Coming Soon</h3>
+      <p>More projects will be added soon</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Coming Soon</h3>
+      <p>Stay tuned</p>
+      <a href="#">View Project</a>
+    </div>
+  </div>
+</section>
+
+
+<div class="container">
 
 <footer class="footer">
   <div class="footer-container">
@@ -93,7 +110,6 @@
     © 2026 Omar. All rights reserved.
   </p>
 </footer>
-
 </div>
 </body>
 </html>
